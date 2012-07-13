@@ -470,9 +470,11 @@ h1 small {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 36px;
-  font-family: 'AllerLightRegular';
+  font-family: 'MavenProBold';
+  letter-spacing:-1px;
+  text-transform:uppercase;
 }
 
 h2 small {
@@ -481,8 +483,10 @@ h2 small {
 
 h3 {
   font-size: 18px;
-  font-family: 'AllerLightRegular';
+  font-family: 'MavenProBold';
+  text-transform:uppercase;
   line-height: 27px;
+  letter-spacing:-1px;
 }
 
 h3 small {
@@ -701,9 +705,9 @@ pre {
   word-wrap: break-word;
   white-space: pre;
   white-space: pre-wrap;
-  background-color: #f5f5f5;
-  border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  border: 1px solid #d2cbb4;
+  border: 1px solid rgba(210, 203, 180, 0.6);
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
@@ -2699,9 +2703,9 @@ button.close {
 
 /**/
 .btn-larger {
-  padding: 15px 35px;
-  margin-right:10px;
-  font-size: 18px;
+  padding: 10px 20px;
+  margin-right:5px;
+  font-size: 22px;
   font-family:Arial, Helvetica, sans-serif;
   line-height: normal;
   -webkit-border-radius: 5px;
@@ -2823,6 +2827,11 @@ button.close {
 .btn-green.active {
   background-color: #889c06 \9;
 }
+
+.btn-green span{
+	font-size:13px;
+}
+
 /**/
 
 .btn-warning {
