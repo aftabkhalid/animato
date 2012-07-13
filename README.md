@@ -26,7 +26,7 @@ https://github.com/aftabkhalid/animato/issues
 Author
 -------
 
-**Aftab Khalid**
+***Aftab Khalid***
 
 + http://twitter.com/aftabkhalid
 + http://github.com/aftabkhalid
@@ -52,5 +52,5 @@ limitations under the License.
 
 
 
-Powered by: [7Vals] (http://aftabkhalid.github.com/animato)
+Powered by: [7Vals] (http://www.7vals.com)
 ---------------------
