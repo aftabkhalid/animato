@@ -165,13 +165,12 @@ body {
 }
 
 a {
-  color: #0088cc;
+  color: #859a00;
   text-decoration: none;
 }
 
 a:hover {
-  color: #005580;
-  text-decoration: underline;
+  color: #000;
 }
 
 .row {
@@ -1796,6 +1795,13 @@ table .span24 {
   background-image: url("../img/glyphicons-halflings-white.png");
 }
 
+.icon-github{
+	background-image:url(../img/icon-github.png);
+	background-position:0;
+	width:17px;
+	height:17px;
+}
+
 .icon-glass {
   background-position: 0      0;
 }
@@ -2691,6 +2697,23 @@ button.close {
   margin-top: 1px;
 }
 
+/**/
+.btn-larger {
+  padding: 15px 35px;
+  margin-right:10px;
+  font-size: 18px;
+  font-family:Arial, Helvetica, sans-serif;
+  line-height: normal;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+}
+
+.btn-larger [class^="icon-"] {
+  margin-top: 1px;
+}
+/**/
+
 .btn-small {
   padding: 5px 9px;
   font-size: 11px;
@@ -2766,6 +2789,41 @@ button.close {
 .btn-primary.active {
   background-color: #004099 \9;
 }
+
+/**/
+.btn-green {
+  background-color: #b8d30b;
+  *background-color: #a5be06;
+  background-image: -ms-linear-gradient(top, #b8d30b, #889c06);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b8d30b), to(#889c06));
+  background-image: -webkit-linear-gradient(top, #b8d30b, #889c06);
+  background-image: -o-linear-gradient(top, #b8d30b, #889c06);
+  background-image: -moz-linear-gradient(top, #b8d30b, #889c06);
+  background-image: linear-gradient(top, #b8d30b, #889c06);
+  background-repeat: repeat-x;
+  border-color: #0055cc #0055cc #003580;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#0088cc', endColorstr='#0055cc', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+  color:#FFFFFF;
+  text-shadow: 0 1px 0 #000;
+}
+
+.btn-green:hover,
+.btn-green:active,
+.btn-green.active,
+.btn-green.disabled,
+.btn-green[disabled] {
+  background-color: #889c06;
+  *background-color: #004ab3;
+  color:#e2ebaa;
+}
+
+.btn-green:active,
+.btn-green.active {
+  background-color: #889c06 \9;
+}
+/**/
 
 .btn-warning {
   background-color: #faa732;

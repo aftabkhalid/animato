@@ -18,3 +18,13 @@ Animation Transition
 2	Duration
 3	Timing Function
 4	Delay
+
+
+
+
+
+
+
+
+-------------------
+
