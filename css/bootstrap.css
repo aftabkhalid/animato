@@ -3899,7 +3899,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar .nav > li > a:hover {
-  color: #999;
+  color: #ccc;
   text-decoration: none;
   background-color: transparent;
 }
