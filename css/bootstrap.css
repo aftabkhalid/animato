@@ -8,51 +8,6 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
-
-@font-face {
-    font-family: 'AllerLightRegular';
-    src: url('../../fonts/aller_lt-webfont.eot');
-    src: url('../../fonts/aller_lt-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../../fonts/aller_lt-webfont.woff') format('woff'),
-         url('../../fonts/aller_lt-webfont.ttf') format('truetype'),
-         url('../../fonts/aller_lt-webfont.svg#AllerLightRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MavenProBlack';
-    src: url('../../maven_pro_black-webfont.eot');
-    src: url('../../maven_pro_black-webfont.eot?#iefix') format('eot'),
-         url('../../maven_pro_black-webfont.woff') format('woff'),
-         url('../../maven_pro_black-webfont.ttf') format('truetype'),
-         url('../../maven_pro_black-webfont.svg#webfontNOU7iUTL') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MavenProBold';
-    src: url('../../maven_pro_bold-webfont.eot');
-    src: url('../../maven_pro_bold-webfont.eot?#iefix') format('eot'),
-         url('../../maven_pro_bold-webfont.woff') format('woff'),
-         url('../../maven_pro_bold-webfont.ttf') format('truetype'),
-         url('../../maven_pro_bold-webfont.svg#webfontNOU7iUTL') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MavenProMedium';
-    src: url('../../maven_pro_medium-webfont.eot');
-    src: url('../../maven_pro_medium-webfont.eot?#iefix') format('eot'),
-         url('../../maven_pro_medium-webfont.woff') format('woff'),
-         url('../../maven_pro_medium-webfont.ttf') format('truetype'),
-         url('../../maven_pro_medium-webfont.svg#webfontNj5iy4Dl') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 article,
 aside,
 details,
@@ -507,7 +462,6 @@ h6 small {
 h1 {
   font-size: 30px;
   line-height: 36px;
-  f
 }
 
 h1 small {
@@ -520,6 +474,7 @@ h2 {
   font-family: 'MavenProBold';
   letter-spacing:-1px;
   text-transform:uppercase;
+  font-weight:normal;
 }
 
 h2 small {
@@ -532,6 +487,7 @@ h3 {
   text-transform:uppercase;
   line-height: 27px;
   letter-spacing:-1px;
+  font-weight:normal;
 }
 
 h3 small {
