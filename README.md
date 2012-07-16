@@ -52,5 +52,5 @@ limitations under the License.
 
 
 
-Powered by: [7Vals] (http://aftabkhalid.github.com/animato)
+Powered by: [7Vals] (http://www.7vals.com)
 ---------------------
