@@ -471,6 +471,7 @@ h1 small {
 h2 {
   font-size: 22px;
   line-height: 36px;
+  font-family: 'MavenProBold';
   letter-spacing:-1px;
   text-transform:uppercase;
   font-weight:normal;
@@ -482,6 +483,7 @@ h2 small {
 
 h3 {
   font-size: 18px;
+  font-family: 'MavenProBold';
   text-transform:uppercase;
   line-height: 27px;
   letter-spacing:-1px;
