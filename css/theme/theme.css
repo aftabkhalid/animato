@@ -1,48 +1,4 @@
 
-@font-face {
-    font-family: 'MavenProBlack';
-    src: url('../../fonts/mavenpro-black-webfont.eot');
-    src: url('../../fonts/mavenpro-black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../../fonts/mavenpro-black-webfont.woff') format('woff'),
-         url('../../fonts/mavenpro-black-webfont.ttf') format('truetype'),
-         url('../../fonts/mavenpro-black-webfont.svg#MavenProBlack') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MavenProRegular';
-    src: url('../../fonts/mavenpro-regular-webfont.eot');
-    src: url('../../fonts/mavenpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../../fonts/mavenpro-regular-webfont.woff') format('woff'),
-         url('../../fonts/mavenpro-regular-webfont.ttf') format('truetype'),
-         url('../../fonts/mavenpro-regular-webfont.svg#MavenProRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MavenProBold';
-    src: url('../../fonts/mavenpro-bold-webfont.eot');
-    src: url('../../fonts/mavenpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../../fonts/mavenpro-bold-webfont.woff') format('woff'),
-         url('../../fonts/mavenpro-bold-webfont.ttf') format('truetype'),
-         url('../../fonts/mavenpro-bold-webfont.svg#MavenProBold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MavenProBlack';
-    src: url('../../fonts/mavenpro-black-webfont.eot');
-    src: url('../../fonts/mavenpro-black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../../fonts/mavenpro-black-webfont.woff') format('woff'),
-         url('../../fonts/mavenpro-black-webfont.ttf') format('truetype'),
-         url('../../fonts/mavenpro-black-webfont.svg#MavenProBlack') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .home-bg{
 	padding-top:82px;
 }
@@ -77,24 +33,24 @@
 	text-align:center;
 }
 .slideshow-one h1{
-	font-size:100px;
+	font-size:110px;
 	color:#adc60a;
 	text-transform:uppercase;
-	font-family: 'MavenProBlack';
+	font-family: 'Maven Pro', arial;
 	letter-spacing:-5px;
 	line-height: 118px;
-	font-weight:700;
+	font-weight:bold!important;
 
 	
 }
 .slideshow-one h2{
 	font-size:40px;
-	font-family: 'MavenProMedium';
+	font-family: 'Maven Pro', arial;
 	text-transform:none
 }
 .slideshow-one h3{
 	font-size:18px;
-	font-family: 'MavenProRegular';
+	font-family: 'Maven Pro', arial;
 	text-transform:none;
 }
 

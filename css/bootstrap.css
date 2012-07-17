@@ -469,9 +469,9 @@ h1 small {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 24px;
   line-height: 36px;
-  font-family: 'MavenProBold';
+  font-family: 'Maven Pro', arial;
   letter-spacing:-1px;
   text-transform:uppercase;
   font-weight:normal;
@@ -483,11 +483,11 @@ h2 small {
 
 h3 {
   font-size: 18px;
-  font-family: 'MavenProBold';
+  font-family: 'Maven Pro', arial;
   text-transform:uppercase;
   line-height: 27px;
   letter-spacing:-1px;
-  font-weight:normal;
+  font-weight:bold;
 }
 
 h3 small {
