@@ -474,7 +474,7 @@ h2 {
   font-family: 'Maven Pro', arial;
   letter-spacing:-1px;
   text-transform:uppercase;
-  font-weight:normal;
+  font-weight:bold;
 }
 
 h2 small {
@@ -501,7 +501,12 @@ h6 {
 }
 
 h4 {
-  font-size: 14px;
+  font-size: 18px;
+  font-family: 'Maven Pro', arial;
+
+  text-transform:uppercase;
+  font-weight:bold;
+  margin-bottom:15px;
 }
 
 h4 small {
