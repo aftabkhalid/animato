@@ -1,0 +1,199 @@
+//
+// Animato's documentation styles
+// --------------------------------------------------
+
+
+@DocsFont: 'Maven Pro', arial;
+h1,h2,h3,h4{
+    font-family: @DocsFont;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.docs-header{
+    text-align:center;
+    height:70px;
+    -webkit-box-shadow: 0px 3px 18px 0px rgba(0, 0, 0, .5);
+    box-shadow:         0px 3px 18px 0px rgba(0, 0, 0, .5);
+    position:relative;
+    z-index:1;
+    .masthead-title{
+        background-image:url(../img/animato-logo.png);
+        display:block;
+        height:31px;
+        width:152px;
+        margin-top:16px;
+    }
+    .masthead-title a{
+        display:block;
+        height:31px;
+        width:152px;
+        text-indent:-999em;
+    }
+}
+
+.jumbotron{
+    background-color:#18191f;
+    background-image:url(../img/jumbotron-bg.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    color:#fff;
+    text-align:center;
+    padding:68px 0 68px;
+    position: relative;
+    h2{
+        font-size:34px;   
+        font-weight:normal;
+        text-shadow: 0px 0px 20px rgba(255, 255, 255, .7);
+    }
+    h1{
+        font-size:120px;
+        line-height: 90px;
+        text-shadow: 0px 0px 20px rgba(255, 255, 255, .4);
+    }
+    h3{
+        font-size:22px;
+        line-height:1;
+        margin: 30px 30%;
+        text-shadow: 0px 0px 20px rgba(255, 255, 255, .7);
+    }
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+}
+.jumbotron::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../img/line-pixel.png);
+    opacity: .07;
+}
+
+.docs-download{
+    .btn {
+        padding: 19px 24px;
+        font-size: 20px;
+        font-weight: 200;
+        font-weight:bold;
+        color: white;
+        border: 0;
+        -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .4), 0 5px 5px rgba(0, 0, 0, .2);
+        -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .4), 0 5px 5px rgba(0, 0, 0, .2);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, .4), 0 5px 5px rgba(0, 0, 0, .2);
+    }
+}
+
+.docs-nav{
+    margin:25px 0 0 ;
+    padding:0;
+    list-style:none;
+    float:right;
+    li{
+        margin:0;
+        padding:0;
+        list-style:none;
+        float:left;
+        padding:0 25px;
+    }
+    a{
+        color:#888; 
+        text-decoration:none;
+    }
+    a:hover{
+        color:#222;
+    }
+}
+
+.text-center{
+    text-align:center;
+}
+
+.features {
+    margin-top:30px;
+    margin-bottom:50px;
+    text-align:center;
+    p{
+       padding: 0 30px 9px;     
+    }
+}
+
+footer{
+    margin:0 0 30px 0;
+    text-align:center;
+    p{
+        margin:0;    
+    }
+}
+
+.started{
+    margin-top:40px;
+    h4{
+        color:@grayLight;
+    }
+    h1{
+        font-size:48px;    
+    }
+}
+
+.subhead {
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+    padding:35px 0 45px;
+    margin: 0 0 35px;
+    h1, h2{
+        font-family:@sansFontFamily;
+        text-transform:inherit;
+        line-height:1;
+    }
+    h1{
+        font-size:54px;
+    }
+    h2{
+        font-size:24px; 
+        letter-spacing:inherit;
+    }
+}
+
+.effects{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    select{
+        width: 100%;        
+    }
+}
+
+.inline-input-devider{
+    width: 50%;
+    float: left;
+}
+
+.well-white{
+    background-color: #fff;
+    height: 241px;
+}
+
+.icon-github {
+    background-image: url(../img/icon-github.png);
+    background-position: 0;
+    width: 17px;
+    height: 17px;
+}
+
+.demo-effect{
+    width:135px;
+	background-color:#333333;
+	color:#888;
+    font-size:12px;
+	text-align:center;
+	line-height:50px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	margin: 100px auto 0;
+	cursor:pointer!important;
+}
