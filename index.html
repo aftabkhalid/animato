@@ -9,17 +9,21 @@
 	<meta name="keywords" content="CSS, CSS3 animation, animation framework, animato, aftab khalid, animation "/>
     
 	<!-- Basic Css -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="stylesheet/less" type="text/css" href="css/bootstrap.less">
+    <link rel="stylesheet/less" type="text/css" href="css/responsive.less">
+    <!--<link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>-->
     
-    <link href="css/theme/theme.css" rel="stylesheet">
-    <!-- Plugins Css -->
-    <link href="css/animation/animation.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
+    <!-- Animato.less -->
+    <link rel="stylesheet/less" type="text/css" href="css/animato.less">
   
 	<!-- Javascript -->  
     <script src="js/jquery.js" type="text/javascript"></script>
 	<script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/application.js" type="text/javascript"></script>
+    <script src="js/less.js" type="text/javascript"></script>
+    <script>
+
+    </script>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -35,89 +39,71 @@
   </head>
   
 <body>
-
-<div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container">
-      <a class="brand" href="http://aftabkhalid.github.com/animato/index.html">Animato</a>
-
-        <ul class="nav pull-right">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="demo.html">Demo</a></li>
-            <li class="divider-vertical"></li>
-            <li><a href="https://github.com/aftabkhalid/animato"><i class="icon-github"></i> &nbsp;Fork Me</a></li>
-        </ul>
-
-    </div>
-  </div>
-</div>
-
-<div class="slideshow-wrap">
-	<div class="container">
-    	<div class="row-fluid">
-        	<div class="slideshow-one">
-            	<h2>A Framework for CSS Based</h2>
-                <h1>Animations</h1>
-                <h3>By: <a href="http://about.me/aftabkhalid">Aftab Khalid</a></h3><br>
-                <a href="https://github.com/aftabkhalid/animato/zipball/master" class="btn btn-green btn-larger">Download Animato <span>(v1.0.0)</span></a>
-                <a href="https://github.com/aftabkhalid/animato" class="btn btn-inverse btn-larger">View project on GitHub</a>
+	
+	<header class="docs-header">
+    	<div class="container">
+        	<div class="row">
+            	<div class="span4">
+                	<h1 class="masthead-title"><a href="#">Animato</a></h1>
+                </div>
+                <div class="span8">
+                    <ul class="docs-nav">
+                    	<li><a href="index.html">OVERVIEW</a></li>
+                        <li><a href="demo.html">PLAY ANIMATO</a></li>
+                    	<li><a href="https://github.com/aftabkhalid/animato"><i class="icon-github"></i> FORK ME</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="jumbotron">
+    	<div class="container">
+        	<h2>A FRAMEWORK FOR CSS BASED</h2>
+            <h1>ANIMATIONS</h1>
+            <h3>THE MOST ADVANCED ANIMATION FRAMWORK IN THE WORLD</h3>
+            <div class="docs-download">
+                <a href="https://github.com/aftabkhalid/animato/zipball/master" class="btn btn-warning btn-larger">Download Animato <span>(v1.0.1)</span></a>&nbsp;
+                <a href="https://github.com/aftabkhalid/animato" class="btn btn-success btn-larger">View project on GitHub</a>
             </div>
         </div>
     </div>
-</div>
-
-<div class="container">
-	<div class="row align-center">
-    	
-        <div class="heading">
-        	<h2>THE MOST ADVANCED ANIMATION FRAMWORK IN THE WORLD</h2>
+    
+    <div class="container started">
+		<div class="text-center">
+        	<h1>GETTING STARTED</h1>
+            <h4>Once you've downloaded Animato, here's what to do next.</h4>
         </div>
-        
-        <div class="span4 features">
-        	<img src="img/icon-pre-design.png" alt="Pre-Designed Animation Effects">
-            <h3>Pre-Designed Animation Effects</h3>
-            <p>Developed all the major animation effects  which are exclusively created by css3. We are creating more and more transition effects.</p>
-        </div>
-    	<div class="span4 features">
-        	<img src="img/icon-plugins.png" alt="Pre-Designed Animation Effects">
-            <h3>Useful Plugins for Animato</h3>
-            <p>We are creating animation plugins as well. These plugins are actually Set of animation effects which are already compiled with animato.css.</p>
-        </div>
-    	<div class="span4 features">
-        	<img src="img/icon-less-css.png" alt="Pre-Designed Animation Effects">
-            <h3>Developed with Less CSS </h3>
-            <p>Write dramatically less code using css less, this is easy to use easy to understand css code, you can use it with any kind of project.</p>
-        </div>
-        
+        <hr>
     </div>
-</div>
-
-<div class="container">
-	<div class="row">
-    	<div class="span8">
-        	<h3>How to use Animato v1.0.0</h3>
-        	<pre class="">&lt;div class="<b>duration-1s shake</b>">I'm Animation&lt;/div></pre>
+    
+    <div class="container">
+    	<div class="row">
+        	<div class="span4 features">
+                <img src="img/icon-pre-design.png" alt="Pre-Designed Animation Effects">
+                <h4>Pre-Designed Animation Effects</h4>
+                <p>Developed all the major animation effects  which are exclusively created by css3. We are creating more and more transition effects.</p>
+            </div>
+            <div class="span4 features" id="overview">
+                <img src="img/icon-plugins.png" alt="Pre-Designed Animation Effects">
+                <h4>Useful Plugins for Animato</h4>
+                <p>We are creating animation plugins as well. These plugins are actually Set of animation effects which are already compiled with animato.css.</p>
+            </div>
+            <div class="span4 features">
+                <img src="img/icon-less-css.png" alt="Pre-Designed Animation Effects">
+                <h4>Developed with Less CSS </h4>
+                <p>Write dramatically less code using css less, this is easy to use easy to understand css code, you can use it with any kind of project.</p>
+            </div>
         </div>
-        <div class="span4">
-        	<h3>Purely built with CSS3</h3>
-            <p>We love to make animation effects using CSS3, This is an Opensource script, feel free to use it. &mdash; Enjoy!</p>
-        </div>
+        <hr>
     </div>
-</div>
-
-<div class="container">
-	<div class="row">
-    	<div class="span12">
-            <footer class="footer">
-                <p class="pull-right"><a href="#">Back to top</a></p>
-                <p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>.<br>
-                Icons from <a href="http://oneseventyseven.com/">Pawel Kadysz</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.<br>
-                Powered by: <a href="http://www.7vals.com" target="_blank">7Vals</a> Created by: <a href="http://about.me/aftabkhalid">Aftab Khalid</a>
-                </p>
-            </footer>
+    
+    <footer class="footer" id="docs">
+        <div class="container">
+            <p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Icons from <a href="http://oneseventyseven.com/">Pawel Kadysz</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+            <p id="animate">Powered by: <a href="http://www.7vals.com" target="_blank">7Vals</a> Created by: <a href="http://about.me/aftabkhalid">Aftab Khalid</a></p>
         </div>
-    </div>
-</div>
+    </footer>
 
 </body>
 </html>
